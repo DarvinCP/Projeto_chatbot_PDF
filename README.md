@@ -1,2 +1,2 @@
-# Projeto_chatbot_PDF
-Projeto de chatbot para arquivo PDF com interface visual já pré desenvolvida.
+# buscador_pdfdarvin
+codigo de busca de info em pdf

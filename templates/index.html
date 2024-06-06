@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta de Manual</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Consulta de Manual</h1>
+
+        <div id="chatbox" class="border rounded p-3 mb-3" style="max-height: 400px; overflow-y: auto;">
+            </div>
+
+        <div class="input-group mb-3">
+            <input type="text" id="user_input" class="form-control" placeholder="Digite sua pergunta...">
+            <button id="send_button" class="btn btn-primary">Enviar</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script> 
+</body>
+</html>
